@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "types": ["jest", "node"],
+      "target": "esnext",                // กำหนด target ให้เป็น esnext
+      "module": "esnext",                // ใช้ ES modules
+      "moduleResolution": "node",        // กำหนดการค้นหาของ modules แบบ Node.js
+      "strict": true,                    // เปิดใช้งานการตรวจสอบแบบเข้มงวด
+      "jsx": "react-jsx",                // ใช้ JSX แบบใหม่ของ React 17+
+      "baseUrl": ".",                    // กำหนด base URL ของโปรเจค
+      "paths": {
+        "@/*": ["src/*"],
+        "@redux/*": ["src/redux/*"],     // ตั้ง alias @redux ให้ชี้ไปที่ src/redux
+        "@pages/*": ["src/pages/*"],    // ตั้ง alias @page ให้ชี้ไปที่ src/pages
+        "@components/*": ["src/components/*"],
+        "@services/*": ["src/services/*"],
+        "@assets/*": ["src/assets/*"],
+        "@utils/*": ["src/utils/*"],
+        "@data/*": ["src/data/*"],
+      },
+      "allowSyntheticDefaultImports": true  // เปิดใช้งาน synthetic default imports
+    },
+    "include": [
+      "src",
+      "src/tests/**/*"
+    ]
+  }
+  
