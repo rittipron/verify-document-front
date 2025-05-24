@@ -1,8 +1,34 @@
-# React + Vite
+# 📄 Document Verification Frontend (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+node version 22.12.0
 
-Currently, two official plugins are available:
+Frontend interface for document verification system built with React and Vite. Connects to a Node.js backend for file uploads and status checking. Designed to be simple, clean, and production-ready.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Tech Stack
+
+- React 18
+- Vite
+- Axios
+- React Router DOM
+- Tailwind CSS
+- JWT (Token-based auth)
+- SweetAlert / Toastify (UI alerts)
+
+## ⚙️ Features
+
+- 🔐 Login with JWT
+- 📤 Upload document for verification
+- 📊 View document status
+- 🧾 Form validation
+- ⚡ Fast dev build (Vite)
+- ✅ Responsive design (Tailwind)
+
+
+🚀 Page
+
+- Login Page
+- Register Page
+- Upload Page
+- Verification Page
+- Document Status Page
+
